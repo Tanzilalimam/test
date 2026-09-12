@@ -27,8 +27,8 @@ menuData: [
     },
     {
         id: 5,
-        label: 'blogs',
-        url: '/blog'
+        label: 'recipes',
+        url: '/recipes'
     },
     {
         id: 6,

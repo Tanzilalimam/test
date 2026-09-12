@@ -5,6 +5,7 @@ import HomeIndex from "./pages/HomeIndex"
 import AboutIndex from './pages/AboutIndex';
 import ServiceIndex from './pages/serviceIndex';
 import ProductIndex from './pages/ProductIndex';
+import RecipeIndex from './pages/RecipeIndex';
 import ErrorPage from "./components/common/Error"
 import DashHomeindex from './pages/dashlayouts/DashHome';
 
@@ -16,6 +17,7 @@ const routerValue = createBrowserRouter(
       <Route path='/about' element={<AboutIndex/>}></Route>
       <Route path='/service' element={<ServiceIndex/>}></Route>
       <Route path='/products' element={<ProductIndex/>}></Route>
+      <Route path='/recipes' element={<RecipeIndex/>}></Route>
     </Route>
     <Route element={<DashRootLayout/>}>
       <Route path='/dash' element={<DashHomeindex/>}></Route>
