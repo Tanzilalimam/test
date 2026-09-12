@@ -4,6 +4,7 @@ import DashRootLayout from './components/layouts/dashboard/Dashrootlyot';
 import HomeIndex from "./pages/HomeIndex"
 import AboutIndex from './pages/AboutIndex';
 import ServiceIndex from './pages/serviceIndex';
+import ProductIndex from './pages/ProductIndex';
 import ErrorPage from "./components/common/Error"
 import DashHomeindex from './pages/dashlayouts/DashHome';
 
@@ -14,6 +15,7 @@ const routerValue = createBrowserRouter(
       <Route path='/' element={<HomeIndex/>}></Route>
       <Route path='/about' element={<AboutIndex/>}></Route>
       <Route path='/service' element={<ServiceIndex/>}></Route>
+      <Route path='/products' element={<ProductIndex/>}></Route>
     </Route>
     <Route element={<DashRootLayout/>}>
       <Route path='/dash' element={<DashHomeindex/>}></Route>

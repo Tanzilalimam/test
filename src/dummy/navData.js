@@ -12,8 +12,8 @@ menuData: [
     },
     {
         id: 2,
-        label: 'how it works',
-        url: '/howwork'
+        label: 'products',
+        url: '/products'
     },
     {
         id: 3,
